@@ -19,19 +19,16 @@
             {
                 $scope.messageClass = "warning";
                 $scope.message = "Too much!";
-                $scope.inputBoxBorderStyle="inputWarning1";
             }
             else if(number > 0 && number <= 3)
             {
                 $scope.messageClass = "success";
                 $scope.message = "Enjoy!";
-                $scope.inputBoxBorderStyle="inputSuccess1";
             }
             else
             {
                 $scope.messageClass = "danger";
                 $scope.message = "Please enter data first";
-                $scope.inputBoxBorderStyle="inputError1";
             }
 
         };
